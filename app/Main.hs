@@ -8,7 +8,7 @@ matchPattern pattern input = do
   if length pattern == 1
     then head pattern `elem` input
     else error $ "Unhandled pattern: " ++ pattern
-
+sssdasdsadas
 main :: IO ()
 main = do
   args <- getArgs
